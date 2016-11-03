@@ -1,0 +1,11 @@
+//------------------------------------------------
+// uLightSensor config block
+
+ProcessConfig = uLightSensor
+{
+  AppTick   = 4
+  CommsTick = 4
+
+  // uLightSensor configuration here
+}
+

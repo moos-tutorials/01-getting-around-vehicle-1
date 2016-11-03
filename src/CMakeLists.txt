@@ -8,3 +8,4 @@ INCLUDE_DIRECTORIES(${LOCAL_LIBRARY_DIRS})
 # List the subdirectories to build...
 #============================================================================
 ADD_SUBDIRECTORY( uLightSource )
+ADD_SUBDIRECTORY( uLightSensor )
