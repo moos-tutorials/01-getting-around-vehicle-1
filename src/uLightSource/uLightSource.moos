@@ -1,0 +1,11 @@
+//------------------------------------------------
+// uLightSource config block
+
+ProcessConfig = uLightSource
+{
+  AppTick   = 4
+  CommsTick = 4
+
+  // uLightSource configuration here
+}
+
