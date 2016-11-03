@@ -9,3 +9,4 @@ INCLUDE_DIRECTORIES(${LOCAL_LIBRARY_DIRS})
 #============================================================================
 ADD_SUBDIRECTORY( uLightSource )
 ADD_SUBDIRECTORY( uLightSensor )
+ADD_SUBDIRECTORY( uSimVehicle1 )

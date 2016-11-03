@@ -1,0 +1,11 @@
+//------------------------------------------------
+// uSimVehicle1 config block
+
+ProcessConfig = uSimVehicle1
+{
+  AppTick   = 4
+  CommsTick = 4
+
+  // uSimVehicle1 configuration here
+}
+
