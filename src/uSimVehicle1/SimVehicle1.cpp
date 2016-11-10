@@ -86,9 +86,9 @@ bool SimVehicle1::Iterate()
   m_pos_x += h*cos(headingToRadians(m_pos_heading))*m_v_speed;
   m_pos_y += h*sin(headingToRadians(m_pos_heading))*m_v_speed;
 
-  Notify("NAV_X", m_pos_x, 0);
-  Notify("NAV_Y", m_pos_y, 0);
-  Notify("NAV_HEADING", m_pos_heading, 0);
+  Notify("NAV_X", m_pos_x);
+  Notify("NAV_Y", m_pos_y);
+  Notify("NAV_HEADING", m_pos_heading);
 
   AppCastingMOOSApp::PostReport();
   return(true);
