@@ -123,7 +123,7 @@ bool LightSource::OnStartUp()
 void LightSource::registerVariables()
 {
   AppCastingMOOSApp::RegisterVariables();
-  Register("ULSOURCE_SET_INTENSITY", 0);
+  Register("ULSOURCE_SET_INTENSITY");
 }
 
 
