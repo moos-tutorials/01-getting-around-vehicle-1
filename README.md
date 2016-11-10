@@ -114,7 +114,7 @@ The `MOOSDB` will also be notified by the position of the source the same way.
 It would be helpful to change the value of the intensity dynamically without having to launch the app.
 To do so, let the app subscribe to a variable 'ULSOURCE_SET_INTENSITY' in the `registerVariables()` method:
 ``` c++
-Register("ULSOURCE_SET_INTENSITY", 0);
+Register("ULSOURCE_SET_INTENSITY");
 ```
 And the new value is to be processed in the `OnNewMail()` method:
 ``` c++
