@@ -311,7 +311,7 @@ bool ${1}::OnStartUp()
 void ${1}::registerVariables()
 {
   AppCastingMOOSApp::RegisterVariables();
-  // Register("FOOBAR", 0);
+  // Register("FOOBAR");
 }
 
 
