@@ -90,7 +90,7 @@ bool LightSensor::Iterate()
     m_i_reading = m_sensitivity/(pow(m_sensor_pos_x - m_source_pos_x, 2.)
                               + pow(m_sensor_pos_y - m_source_pos_y, 2.));
 
-  Notify("ULSENSOR_READING", m_i_reading, 0.);
+  Notify("ULSENSOR_READING", m_i_reading);
 
   AppCastingMOOSApp::PostReport();
   return(true);
