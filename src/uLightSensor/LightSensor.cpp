@@ -137,12 +137,12 @@ bool LightSensor::OnStartUp()
 void LightSensor::registerVariables()
 {
   AppCastingMOOSApp::RegisterVariables();
-  Register("ULSOURCE_INTENSITY", 0);
-  Register("ULSOURCE_POS_X", 0);
-  Register("ULSOURCE_POS_Y", 0);
-  Register("NAV_X", 0);
-  Register("NAV_Y", 0);
-  Register("ULSENSOR_SET_SENSITIVITY", 0);
+  Register("ULSOURCE_INTENSITY");
+  Register("ULSOURCE_POS_X");
+  Register("ULSOURCE_POS_Y");
+  Register("NAV_X");
+  Register("NAV_Y");
+  Register("ULSENSOR_SET_SENSITIVITY");
 }
 
 
