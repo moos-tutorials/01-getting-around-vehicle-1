@@ -103,9 +103,9 @@ In the `uLightSource_Info.cpp` add the relevant information in the `showExampleC
 Next, the application should publish the intensity at each iteration for instance.
 In the `Iterate()` method, let's add the following call that will publish the value of the intensity to the `MOOSDB`:
 ``` c++
-Notify("ULSOURCE_INTENSITY", m_intensity, 0.);
-Notify("ULSOURCE_POS_X", m_x, 0.);
-Notify("ULSOURCE_POS_Y", m_y, 0.);
+Notify("ULSOURCE_INTENSITY", m_intensity);
+Notify("ULSOURCE_POS_X", m_x);
+Notify("ULSOURCE_POS_Y", m_y);
 ```
 This *MOOS* function call will publish a variable `ULSOURCE_INTENSITY` with the corresponding value of `m_intensity` immediately.
 The `MOOSDB` will also be notified by the position of the source the same way.

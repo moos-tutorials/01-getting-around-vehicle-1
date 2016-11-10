@@ -69,9 +69,9 @@ bool LightSource::Iterate()
 {
   AppCastingMOOSApp::Iterate();
   // Do your thing here!
-  Notify("ULSOURCE_INTENSITY", m_intensity, 0.);
-  Notify("ULSOURCE_POS_X", m_x, 0.);
-  Notify("ULSOURCE_POS_Y", m_y, 0.);
+  Notify("ULSOURCE_INTENSITY", m_intensity);
+  Notify("ULSOURCE_POS_X", m_x);
+  Notify("ULSOURCE_POS_Y", m_y);
   AppCastingMOOSApp::PostReport();
   return(true);
 }
