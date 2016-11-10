@@ -151,7 +151,7 @@ bool SimVehicle1::OnStartUp()
 void SimVehicle1::registerVariables()
 {
   AppCastingMOOSApp::RegisterVariables();
-  Register("ULSENSOR_READING", 0);
+  Register("ULSENSOR_READING");
 }
 
 
